@@ -9,11 +9,15 @@
  */
 
 import AppHeader from './AppHeader'
+import Button from './Button'
 
 export default function App() {
   return (
     <div>
       <AppHeader title={'Hi Hacker!'} subtitle={"How's it going?"} />
+      <Button>Not styled</Button>
+      <Button primary>Not styled</Button>
+      <Button color>Not styled</Button>
     </div>
   )
 }
