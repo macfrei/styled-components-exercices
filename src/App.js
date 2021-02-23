@@ -20,7 +20,11 @@ export default function App() {
 
   return (
     <div>
-      <AppHeader title={'Hi Hacker!'} subtitle={"How's it going?"} />
+      <AppHeader
+        isVisible={isVisible}
+        title={'Hi Hacker!'}
+        subtitle={"How's it going?"}
+      />
       <Button onClick={() => setIsVisible(!isVisible)}>Button</Button>
     </div>
   )
